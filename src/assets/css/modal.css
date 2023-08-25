@@ -1,0 +1,151 @@
+.overflow-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: rgba(44,44,44,.5);
+}
+
+.overflow-modal .modal {
+    width: 30%;
+    margin: auto;
+    background-color: var(--dark);
+    border-radius: var(--border-radius);
+}
+
+.overflow-modal .modal .modal-head {
+    width: 100%;
+    height: 60px;
+    padding: 0em 1em;
+}
+.overflow-modal .modal .modal-head .content-modal-head {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.overflow-modal .modal .modal-head .content-modal-head .tit {
+    font-size: 1.2em;
+    font-weight: 500;
+    color: var(--white);
+}
+
+.overflow-modal .modal .modal-head .content-modal-head .act .btn {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    background-color: var(--primary);
+}
+.overflow-modal .modal .modal-head .content-modal-head .act .btn svg {
+    stroke: var(--lead);
+}
+
+.overflow-modal .modal .modal-body {
+    width: 100%;
+    padding: 1em;
+    max-height: 400px;
+    overflow-y: scroll;
+}
+.overflow-modal .modal .modal-body::-webkit-scrollbar {
+    display: none;
+}
+
+.overflow-modal .modal .modal-body .content-modal-body .wrap {
+    padding: .5em;
+    margin: .5em 0em;
+    background-color: var(--primary);
+    border-radius: var(--border-radius);
+}
+
+.overflow-modal .modal .modal-body .content-modal-body .wrap .group {
+    width: 100%;
+    display: flex;
+    gap: 1em;
+    margin: .5em 0em;
+    align-items: center;
+    justify-content: space-between;
+}
+.overflow-modal .modal .modal-body .content-modal-body .wrap .group .control {
+    width: 100%;
+    display: flex;
+    padding: .5em;
+    font-size: .9em;
+    align-items: center;
+    color: var(--white);
+    background-color: var(--dark);
+    border-radius: var(--border-radius);
+}
+
+.overflow-modal .modal .modal-body .content-modal-body .wrap .group .control .span-block-color {
+    padding: .5em 1em;
+    user-select: none;
+    border-radius: var(--border-radius);
+}
+
+.overflow-modal .modal .modal-body .content-modal-body .wrap .images {
+    width: 100%;
+    display: flex;
+    gap: 1em;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.overflow-modal .modal .modal-body .content-modal-body .wrap .images::-webkit-scrollbar {
+    /*width: 8px;     /* Tamaño del scroll en vertical */
+    height: 8px;     /*Tamaño del scroll en horizontal */
+    display: block;  /* Ocultar scroll */
+    margin: .5em;
+}
+.overflow-modal .modal .modal-body .content-modal-body .wrap .images::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+/* Ponemos un color de fondo y redondeamos las esquinas del thumb */
+.overflow-modal .modal .modal-body .content-modal-body .wrap .images::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}
+
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+.overflow-modal .modal .modal-body .content-modal-body .wrap .images::-webkit-scrollbar-thumb:hover {
+    background: #b3b3b3;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Cambiamos el fondo cuando esté en active */
+.overflow-modal .modal .modal-body .content-modal-body .wrap .images::-webkit-scrollbar-thumb:active {
+    background-color: #999999;
+}
+/* Ponemos un color de fondo y redondeamos las esquinas del track */
+.overflow-modal .modal .modal-body .content-modal-body .wrap .images::-webkit-scrollbar-track {
+    background: #e1e1e1;
+    border-radius: 4px;
+}
+
+/* Cambiamos el fondo cuando esté en active o hover */
+.overflow-modal .modal .modal-body .content-modal-body .wrap .images::-webkit-scrollbar-track:hover,
+.overflow-modal .modal .modal-body .content-modal-body .wrap .images::-webkit-scrollbar-track:active {
+  background: #d4d4d4;
+}
+
+
+.overflow-modal .modal .modal-body .content-modal-body .wrap .images .content-image {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: var(--border-radius);
+}
+.overflow-modal .modal .modal-body .content-modal-body .wrap .images .content-image .btn-download {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: grid;
+    width: 40px;
+    height: 40px;
+    place-items: center;
+}

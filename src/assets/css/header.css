@@ -1,0 +1,110 @@
+.header {
+    grid-area: header;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 1001;
+    padding: 0em 1em;
+    background-color: var(--white);
+}
+
+.header .content-header {
+    width: 100%;
+    height: inherit;
+}
+
+
+/* HEADER MOBILE */
+
+.header .content-header .header-component-mobile-visible {
+    width: 100%;
+    display: flex;
+    height: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .content-header .header-component-mobile-visible .side .btn {
+    display: grid;
+    width: 40px;
+    height: 40px;
+    place-items: center;
+}
+
+.header .content-header .header-component-mobile-visible .sideB {
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+.header .content-header .header-component-mobile-visible .sideB .logo {
+    height: 40px;
+}
+
+.header .content-header .header-component-mobile-hidden {
+    display: none;
+}
+
+/* HEADER MOBILE */
+
+
+/* HEADER DESKTOP */
+
+.header .content-header .header-component-desktop-visible {
+    width: 100%;
+    display: flex;
+    height: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .content-header .header-component-desktop-hidden {
+    display: none;
+}
+
+.header .content-header .header-component-desktop-visible .sideA {
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+.header .content-header .header-component-desktop-visible .sideA .logo {
+    height: 40px;
+}
+
+.header .content-header .header-component-desktop-visible .sideB .list-nav {
+    display: none;
+    gap: 1em;
+    align-items: center;
+}
+.header .content-header .header-component-desktop-visible .sideB .list-nav .li-item .a-item {
+    font-weight: 600;
+}
+.header .content-header .header-component-desktop-visible .sideB .list-nav .li-item .a-item:hover {
+    color: #d83870;
+}
+
+.header .content-header .header-component-desktop-visible .sideC {
+    display: flex;gap: 1em;
+}
+.header .content-header .header-component-desktop-visible .sideC .btn-phone {
+    display: flex;
+    align-items: center;gap: .5em;
+}
+.header .content-header .header-component-desktop-visible .sideC .btn-phone:hover {
+    color: #d83870;
+}
+.header .content-header .header-component-desktop-visible .sideC .btn-phone span {
+    font-weight: 500;
+}
+.header .content-header .header-component-desktop-visible .sideC .btn-lang {
+    display: flex;
+    align-items: center;
+}
+.header .content-header .header-component-desktop-visible .sideC .btn-lang:hover {
+    color: #d83870;
+}
+.header .content-header .header-component-desktop-visible .sideC .btn-lang .lang {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* HEADER DESKTOP */

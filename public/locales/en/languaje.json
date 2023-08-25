@@ -1,0 +1,74 @@
+{
+    "startProject": "Let's start your project by completing the short form below",
+    "personalInfo": {
+        "label": "Personal Information",
+        "fullName": "What is your full name?",
+        "email": "What is your email?",
+        "phone": "What is your phone number?"
+    },
+    "incompleteFields": {
+        "label": "Incomplete Fields",
+        "message": "Please complete all fields before proceeding"
+    },
+    "brief": {
+        "label": "Brief",
+        "logoName": "Name for Logo Design",
+        "slogan": "Do you have a slogan or phrase?",
+        "businessInfo": "Tell us a little about your business or brand. What do you do?",
+        "logoType": "What type of logo do you need? Choose all that apply",
+        "designSuggestions": "Do you have any design suggestions?",
+        "preferredColor": "Do you have a preferred color?",
+        "usefulFiles": "Do you have files, images, sketches, documents, or anything else useful for our designers?"
+    },
+    "payment": {
+        "label": "Payment Process",
+        "paymentConfirmed": "Payment confirmed successfully"
+    },
+    "placeholder": {
+        "labelNameMail":"Name",
+        "labelLastMail":"Last Name",
+        "labelEmailMail":"Email Address",
+        "labelTextMail": "Leave us a message...",
+
+        "fullNameForm": "Full Name",
+        "emailForm": "Email Address",
+        "phoneForm": "Phone Number",
+        
+        "companyForm": "Example: ABC Company",
+        "responseForm": "Write your response...",
+        "bussinesForm": "For example, we are a bakery specialized in cupcakes. We make all kinds of cupcakes for events like birthdays, parties, and special occasions.",
+        
+        "Isotipo": "Isotype",
+        "Logotipo": "Logo",
+        "Imagotipo": "Imagotype",
+        "Isologo": "Isologo",
+        "Mascotlogo": "Mascot Logo",
+        "noPreference": "No preference",
+
+        "suggestions":"For example, I want my logo design to have warm colors with a clean breeze",
+        
+        "filesSuccessfly": "Uploaded successfully",
+        "archivos": "files",
+        "areaFiles": "Click here in this area to upload files."
+
+    },
+    "actionsButtons": {
+        "generateVoucher": "Generate Voucher",
+        "download": "Download",
+        "share": "Share",
+        "previous": "Previous",
+        "next": "Next",
+        "confirm": "Confirm",
+        "success": "Success!",
+        "sendMail":"Send",
+        "sendingMail": "Sending..."
+    },
+    "footer": {
+        "redesSociales": "Social Media",
+        "contactanos": "Contact Us",
+        "sitioCreadoPor": "Developed by"
+    },
+    "alert": {
+        "noComplete":"Please complete all the fields before continuing."
+    }
+}

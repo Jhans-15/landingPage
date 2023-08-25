@@ -1,17 +1,39 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import './settings/i18n';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import { PayPalScriptProvider } from "@paypal/react-paypal-js";
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import HomeScreen from "./screens/HomeScreen";
+
+import "./assets/css/global.css"
+import { PayConfirmProvider } from "./context/PayConfirmContext";
+import AdminScreen from "./screens/AdminScreen";
+import { DataProvider } from "./context/DataContext";
+import { ModalProvider } from "./context/ModalContext";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <React.StrictMode>
+        <PayPalScriptProvider
+            options={{
+                "clientId" : "AStWQOoJnIQ6rvQ5Cr7qVlveYpI7AaA2EKpN70dmlrOEnQPMHKobBKAm2fekgeVwEYHAcZGUa3CxLaz-"
+            }}
+        >
+            <PayConfirmProvider>
+                <DataProvider>
+                    <ModalProvider>
+                        <BrowserRouter>
+                            <Routes>
+                                <Route path="/" element={<HomeScreen/>} />
+                                <Route path="/admin" element={<AdminScreen/>} />
+                            </Routes>
+                        </BrowserRouter>
+                    </ModalProvider>
+                </DataProvider>
+            </PayConfirmProvider>
+        </PayPalScriptProvider>
+    </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

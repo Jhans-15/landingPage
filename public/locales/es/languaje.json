@@ -1,0 +1,74 @@
+{
+    "startProject": "Comencemos su proyecto completando el breve formulario a continuación",
+    "personalInfo": {
+        "label": "Datos Personales",
+        "fullName": "¿Cuál es tu nombre completo?",
+        "email": "¿Cuál es tu correo electrónico?",
+        "phone": "¿Cuál es tu teléfono?"
+    },
+    "incompleteFields": {
+        "label": "Campos incompletos",
+        "message": "Por favor antes de continuar completa todos los campos"
+    },
+    "brief": {
+        "label": "Brief",
+        "logoName": "Nombre para el diseño de Logo",
+        "slogan": "¿Tienes un slogan o frase?",
+        "businessInfo": "Especificanos un poco sobre tu negocio o marca. ¿A que se dedican?",
+        "logoType": "¿Que tipo de logo requieres? Elige todo lo que deseas",
+        "designSuggestions": "¿Tienes alguna sugerencia para el diseño?",
+        "preferredColor": "¿Tienes un color de preferencia?",
+        "usefulFiles": "¿Tiene archivos, imágenes, bocetos, documentos o cualquier otra cosa que sea útil para nuestros diseñadores?"
+    },
+    "payment": {
+        "label": "Proceso de Pago",
+        "paymentConfirmed": "Se confirmo correctamente el pago"
+    },
+    "placeholder": {
+        "labelNameMail":"Nombre",
+        "labelLastMail":"Apellido",
+        "labelEmailMail":"Correo Electrónico",
+        "labelTextMail": "Déjanos un mensaje...",
+
+        "fullNameForm": "Nombres completos",
+        "emailForm": "Email",
+        "phoneForm": "Número de teléfono",
+
+        "companyForm": "Ejemplo: ABC Company",
+        "responseForm": "Escribe tu respuesta...",
+        "bussinesForm": "Por ejemplo, somos una panadería especializada en cupcakes. Hacemos todo tipo de cupcakes para eventos como cumpleaños, fiestas y ocasiones especiales.",
+        
+        "Isotipo": "Isotipo",
+        "Logotipo": "Logo",
+        "Imagotipo": "Imagotipo",
+        "Isologo": "Isologo",
+        "Mascotlogo": "MascotLogo",
+        "noPreference": "Sin preferencia",
+
+        "suggestions":"Por ejemplo, Quiero que el diseño de mi logo tenga los colores cálidos con una brisa limpia",
+
+        "filesSuccessfly": "Se cargó exitosamente",
+        "archivos": "archivos",
+        "areaFiles": "Haga clic aquí en esta área para cargar archivos."
+
+    },
+    "actionsButtons": {
+        "generateVoucher": "Generar Voucher",
+        "download": "Descargar",
+        "share": "Compartir",
+        "previous": "Anterior",
+        "next": "Siguiente",
+        "confirm": "Confirmar",
+        "success": "¡Listo!",
+        "sendMail":"Enviar",
+        "sendingMail": "Enviando..."
+    },
+    "footer": {
+        "redesSociales": "Redes Sociales",
+        "contactanos": "Contáctanos",
+        "sitioCreadoPor": "Desarrollado por"
+    },
+    "alert": {
+        "noComplete":"Por favor antes de continuar completa todos los campos."
+    }
+}

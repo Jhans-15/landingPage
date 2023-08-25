@@ -1,0 +1,125 @@
+.content {
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: var(--dark);
+}
+
+
+.content .center {
+    width: 80%;
+    margin: auto;
+}
+
+.content .center .table {
+    width: 100%;
+    overflow: hidden;
+    background-color: var(--primary);
+    border-radius: var(--border-radius);
+}
+
+.content .center .table .th {
+    width: 100%;
+    height: 60px;
+    display: grid;gap: .5em;
+    background-color: #000000;
+    grid-template-columns: repeat(8, 1fr);
+}
+.content .center .table .th .column {
+    display: grid;
+    width: 100%;
+    place-items: center;
+}
+.content .center .table .th .column span {
+    font-weight: 500;
+    color: var(--white);
+}
+
+.content .center .table .tb {
+    height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+}
+
+.content .center .table .tb::-webkit-scrollbar {
+    width: 8px;     /* Tamaño del scroll en vertical */
+    /*height: 8px;     Tamaño del scroll en horizontal */
+    display: block;  /* Ocultar scroll */
+}
+.content .center .table .tb::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+/* Ponemos un color de fondo y redondeamos las esquinas del thumb */
+.content .center .table .tb::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}
+
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+.content .center .table .tb::-webkit-scrollbar-thumb:hover {
+    background: #b3b3b3;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Cambiamos el fondo cuando esté en active */
+.content .center .table .tb::-webkit-scrollbar-thumb:active {
+    background-color: #999999;
+}
+/* Ponemos un color de fondo y redondeamos las esquinas del track */
+.content .center .table .tb::-webkit-scrollbar-track {
+    background: #e1e1e1;
+    border-radius: 4px;
+}
+
+/* Cambiamos el fondo cuando esté en active o hover */
+.content .center .table .tb::-webkit-scrollbar-track:hover,
+.content .center .table .tb::-webkit-scrollbar-track:active {
+  background: #d4d4d4;
+}
+
+.content .center .table .tb .row {
+    width: 100%;
+    height: 60px;
+    display: grid;gap: .5em;
+    border-bottom: 1px solid var(--dark);
+    grid-template-columns: repeat(8, 1fr);
+}
+.content .center .table .tb .row .column {
+    display: grid;
+    width: 100%;
+    padding: 0em .5em;
+    place-items: center;
+    overflow: hidden; /* Oculta el texto que excede */
+    text-overflow: ellipsis; /* Muestra puntos suspensivos para el texto que excede */
+    white-space: nowrap; /* Evita el salto de línea */
+    border-right: 1px solid var(--dark);
+}
+.content .center .table .tb .row .column span {
+    color: var(--lead);
+    overflow: hidden; /* Oculta el texto que excede */
+    text-overflow: ellipsis; /* Muestra puntos suspensivos para el texto que excede */
+    white-space: nowrap;
+}
+
+.content .center .table .tb .row .column .btn {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    background-color: var(--dark);
+}
+.content .center .table .tb .row .column .btn svg {
+    stroke: var(--white);
+}
+
+.content .center .table .tb .empty {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    color: var(--lead);
+    font-size: 1.2em;
+}

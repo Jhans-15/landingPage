@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+
+    --primary: #252525;
+    --dark: #181818;
+    --white: #FFFFFF;
+    --secondary-white: #F5F5F5;
+
+    --lead: #CCCCCC;
+    --red: #ef0000;
+    --success: #00c237;
+    --bg-success: rgb(0, 194, 55, .2);
+
+    --border-radius: 10px;
+    --border-rounded: 100px;
+
+    --font-family: 'Raleway', sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+
+body {
+    background-color: var(--secondary-white);
+}
+
+body::-webkit-scrollbar {
+    display: block;
+    width: 8px;
+    height: 8px;
+}
+
+input, select, textarea {
+    border: none;
+    outline: none;
+    border-radius: var(--border-radius);
+}
+
+.PhoneInput {
+    width: 100%;
+    height: 50px;
+    padding: 0em 1em;
+    border: 2px solid var(--lead);
+    border-radius: var(--border-radius);
+}
+
+ul, li {
+    list-style: none;
+}
+
+label {
+    user-select: none;
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    user-select: none;
+    border-radius: var(--border-radius);
+}
+
+img {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    user-select: none;
+    border-radius: inherit;
+}
+
+a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.span-block {
+    display: block;
+}
+
+.span-label {
+    font-size: .8em;
+    color: var(--lead);
+    margin-bottom: .5em;
+}
+
+.badge-type {
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+    padding: 0.5em 1em;
+    margin-right: 0.5em;
+    background-color: var(--primary);
+    border-radius: var(--border-rounded);
+}

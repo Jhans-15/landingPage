@@ -1,0 +1,626 @@
+.elementor-form-mobile {
+    width: 100%;
+}
+
+.elementor-form-mobile .elementor-separator {
+    padding: 1em 0em 1em;
+}
+
+.elementor-form-mobile .elementor-title {
+    padding: .5em 1em;
+    border-left: 4px solid var(--primary);
+}
+
+.elementor-form-mobile .elementor-title .elementor-h1 {
+    font-size: 1.5rem;
+}
+
+.elementor-form-mobile .elementor-guide .elementor-steps {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.elementor-form-mobile .elementor-guide .elementor-steps .elementor-step {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    cursor: pointer;
+    place-items: center;
+    border: 1px solid var(--primary);
+    border-radius: var(--border-rounded);
+}
+.elementor-form-mobile .elementor-guide .elementor-steps .elementor-step-active {
+    color: var(--white);
+    background-color: var(--primary);
+}
+
+.elementor-form-mobile .elementor-content {
+    width: 100%;
+    padding: 1em .5em;
+    border: 2px solid var(--lead);
+    border-radius: var(--border-radius);
+}
+
+.elementor-form-mobile .elementor-content .elementor-group {
+    margin: 0em 0em 1em;
+}
+
+.elementor-form-mobile .elementor-content .elementor-group .elementor-title span {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.elementor-form-mobile .elementor-content .elementor-group .elementor-alert {
+    width: 100%;
+    font-size: .8em;
+    font-weight: 500;
+    color: var(--red);
+    padding: 1em .5em;
+    user-select: none;
+    text-align: center;
+    border-radius: var(--border-radius);
+    background-color: rgb(239 0 0 / .2);
+}
+
+.elementor-form-mobile .elementor-content .elementor-group .elementor-label .label {
+    font-weight: bold;
+    display: block;
+    padding: 0em 0em .5em;
+}
+.elementor-form-mobile .elementor-content .elementor-group .elementor-label .important {
+    color: var(--red);
+    font-size: 1.2em;
+}
+.elementor-form-mobile .elementor-content .elementor-group .elementor-entries {
+    width: 100%;
+    display: flex;gap: .5em;
+}
+.elementor-form-mobile .elementor-content .elementor-group .elementor-entries .entry {
+    width: 100%;
+    height: 50px;
+    padding: 0em 1em;
+    border: 2px solid var(--lead);
+    border-radius: var(--border-radius);
+}
+
+.elementor-form-mobile .elementor-content .elementor-group .elementor-entries .entry-area {
+    width: 100%;
+    padding: 1em;
+    resize: none;
+    min-height: 100px;
+    border: 2px solid var(--lead);
+    border-radius: var(--border-radius);
+}
+.elementor-form-mobile .elementor-content .elementor-group .elementor-entries .area-image {
+    width: 100%;
+    display: grid;
+    height: 150px;
+    cursor: pointer;
+    place-items: center;
+    border: 2px solid var(--lead);
+    border-radius: var(--border-radius);
+}
+.elementor-form-mobile .elementor-content .elementor-group .elementor-entries .area-image-choosed {
+    color: var(--success);
+    border: 2px solid var(--success);
+    background-color: var(--bg-success);
+}
+.elementor-form-mobile .elementor-content .elementor-group .elementor-entries .area-image .area-center {
+    width: 90%;
+    margin: auto;
+    color: #999;
+    font-size: .8em;
+    text-align: center;
+}
+.elementor-form-mobile .elementor-content .elementor-group .elementor-entries .area-image-choosed .area-center {
+    color: var(--success);
+}
+.elementor-form-mobile .elementor-content .elementor-group .elementor-entries .entry-file {
+    display: none;
+}
+
+.elementor-form-mobile .elementor-content .elementor-group .elementor-grid {
+    width: 100%;
+    display: grid;gap: .5em;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.elementor-form-mobile .elementor-content .elementor-group .elementor-grid .elementor-item {
+    width: 100%;
+    height: 150px;
+    cursor: pointer;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid var(--lead);
+    border-radius: var(--border-radius);
+}
+.elementor-form-mobile .elementor-content .elementor-group .elementor-grid .elementor-item-iso {
+    background-image: url(../img/ISOTIPO.jpg);
+}
+.elementor-form-mobile .elementor-content .elementor-group .elementor-grid .elementor-item-log {
+    background-image: url(../img/LOGOTIPO.jpg);
+}
+.elementor-form-mobile .elementor-content .elementor-group .elementor-grid .elementor-item-ima {
+    background-image: url(../img/IMAGOTIPO.jpg);
+}
+.elementor-form-mobile .elementor-content .elementor-group .elementor-grid .elementor-item-isl {
+    background-image: url(../img/ISOLOGO.jpg);
+}
+.elementor-form-mobile .elementor-content .elementor-group .elementor-grid .elementor-item-msc {
+    background-image: url(../img/MASCOT\ LOGO.jpg);
+}
+.elementor-form-mobile .elementor-content .elementor-group .elementor-grid .elementor-item-p {
+    background-image: url(../img/SIN\ PREFERENCIAS.jpg);
+}
+
+.elementor-form-mobile .elementor-content .elementor-group .elementor-grid .elementor-group-items .elementor-text {
+    text-align: center;
+    padding: .5em 0em;
+}
+.elementor-form-mobile .elementor-content .elementor-group .elementor-grid .elementor-group-items .elementor-text span {
+    display: block;
+    font-size: .8em;
+    font-weight: bold;
+    color: var(--dark);
+}
+.elementor-form-mobile .elementor-content .elementor-group .elementor-grid .elementor-group-items .elementor-text .txt-tit {
+    font-size: 1em;
+}
+
+.elementor-form-mobile .elementor-content .elementor-group .elementor-grid .selected {
+    border: 4px solid rgb(25, 133, 233);
+}
+
+.elementor-form-mobile .elementor-content .elementor-group .elementor-color {
+    display: flex;gap: 1em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.elementor-form-mobile .elementor-content .elementor-group .elementor-entries .content-color {
+    width: 100%;
+    height: 50px;
+    display: grid;
+    padding: 0em 1em;
+    place-items: center;
+    color: var(--white);
+    border: 2px solid var(--lead);
+    border-radius: var(--border-radius);
+}
+
+.elementor-form-mobile .elementor-content .elementor-group .elementor-entries .choose-color {
+    width: 100%;
+    height: 50px;
+    padding: 0em 1em;
+    border: 2px solid var(--lead);
+    border-radius: var(--border-radius);
+}
+
+.elementor-form-mobile .elementor-content .elementor-group .elementor-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.elementor-form-mobile .elementor-content .elementor-group .elementor-actions .btn {
+    padding: 1em 2em;
+}
+.elementor-form-mobile .elementor-content .elementor-group .elementor-actions .btn-preview {
+    color: var(--primary);
+    border: 1px solid var(--primary);
+}
+.elementor-form-mobile .elementor-content .elementor-group .elementor-actions .btn-next {
+    color: var(--white);
+    background-color: var(--primary);
+}
+
+.elementor-form-mobile .elementor-content .elementor-group .table {
+    width: 100%;
+    border: 2px dashed var(--primary);
+}
+.elementor-form-mobile .elementor-content .elementor-group .table .table-head {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px dashed var(--primary);
+}
+.elementor-form-mobile .elementor-content .elementor-group .table .table-head .column {
+    width: 100%;
+    display: grid;
+    font-size: .8em;
+    height: inherit;
+    place-items: center;
+}
+.elementor-form-mobile .elementor-content .elementor-group .table .table-body {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.elementor-form-mobile .elementor-content .elementor-group .table .table-body .column {
+    width: 100%;
+    display: grid;
+    font-size: .8em;
+    height: inherit;
+    place-items: center;
+}
+.elementor-form-mobile .elementor-content .elementor-group .table .table-footer {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px dashed var(--primary);
+}
+.elementor-form-mobile .elementor-content .elementor-group .table .table-footer .column {
+    width: 100%;
+    display: grid;
+    font-size: .8em;
+    height: inherit;
+    place-items: center;
+}
+.elementor-form-mobile .elementor-content .elementor-group .table .table-footer .columnBold {
+    font-weight: bold;
+}
+
+
+.elementor-form-mobile .elementor-content .elementor-group .table .table-row {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.elementor-form-mobile .elementor-content .elementor-group .table .table-row .table-column {
+    width: 100%;
+    height: inherit;
+}
+
+
+.elementor-form-mobile .elementor-content .elementor-actions {
+    display: flex;
+    gap: .5em;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.elementor-form-mobile .elementor-content .elementor-actions .btn {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    gap: 0.5em;
+    background: none;
+    align-items: center;
+    justify-content: center;
+}
+.elementor-form-mobile .elementor-content .elementor-actions .btn-lead {
+    background-color: var(--lead);
+}
+
+/*************************************/
+
+.elementor-form-desktop {
+    width: 40%;
+    margin: auto;
+}
+.elementor-form-desktop .elementor-separator {
+    padding: 1em 0em 1em;
+}
+
+.elementor-form-desktop .elementor-title {
+    padding: .5em 1em;
+    border-left: 4px solid var(--primary);
+}
+
+.elementor-form-desktop .elementor-title span {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.elementor-form-desktop .elementor-title .elementor-h1 {
+    font-size: 1.5rem;
+}
+
+.elementor-form-desktop .elementor-guide .elementor-steps {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.elementor-form-desktop .elementor-guide .elementor-steps .elementor-step {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    cursor: pointer;
+    place-items: center;
+    border: 1px solid var(--primary);
+    border-radius: var(--border-rounded);
+}
+.elementor-form-desktop .elementor-guide .elementor-steps .elementor-step-active {
+    color: var(--white);
+    background-color: var(--primary);
+}
+
+
+.elementor-form-desktop .elementor-content {
+    width: 100%;
+    padding: 1em .5em;
+    border: 2px solid var(--lead);
+    border-radius: var(--border-radius);
+}
+
+.elementor-form-desktop .elementor-content .elementor-group {
+    margin: 0em 0em 1em;
+}
+
+.elementor-form-desktop .elementor-content .elementor-group .elementor-alert {
+    width: 100%;
+    font-size: .8em;
+    font-weight: 500;
+    color: var(--red);
+    padding: 1em .5em;
+    user-select: none;
+    text-align: center;
+    border-radius: var(--border-radius);
+    background-color: rgb(239 0 0 / .2);
+}
+
+.elementor-form-desktop .elementor-content .elementor-group .elementor-label .label {
+    font-weight: bold;
+    display: block;
+    font-size: .8em;
+    padding: 0em 0em .5em;
+}
+.elementor-form-desktop .elementor-content .elementor-group .elementor-label .important {
+    color: var(--red);
+    font-size: 1.2em;
+}
+.elementor-form-desktop .elementor-content .elementor-group .elementor-entries {
+    width: 100%;
+    display: flex;gap: .5em;
+}
+.elementor-form-desktop .elementor-content .elementor-group .elementor-entries .entry {
+    width: 100%;
+    height: 50px;
+    padding: 0em 1em;
+    border: 2px solid var(--lead);
+    border-radius: var(--border-radius);
+}
+
+.elementor-form-desktop .elementor-content .elementor-group .elementor-entries .entry-area {
+    width: 100%;
+    padding: 1em;
+    resize: none;
+    min-height: 100px;
+    border: 2px solid var(--lead);
+    border-radius: var(--border-radius);
+}
+.elementor-form-desktop .elementor-content .elementor-group .elementor-entries .area-image {
+    width: 100%;
+    display: grid;
+    height: 150px;
+    cursor: pointer;
+    place-items: center;
+    border: 2px solid var(--lead);
+    border-radius: var(--border-radius);
+}
+.elementor-form-desktop .elementor-content .elementor-group .elementor-entries .area-image-choosed {
+    color: var(--success);
+    border: 2px solid var(--success);
+    background-color: var(--bg-success);
+}
+.elementor-form-desktop .elementor-content .elementor-group .elementor-entries .area-image .area-center {
+    width: 90%;
+    margin: auto;
+    color: #999;
+    font-size: .8em;
+    text-align: center;
+}
+.elementor-form-desktop .elementor-content .elementor-group .elementor-entries .area-image-choosed .area-center {
+    color: var(--success);
+}
+.elementor-form-desktop .elementor-content .elementor-group .elementor-entries .entry-file {
+    display: none;
+}
+
+.elementor-form-desktop .elementor-content .elementor-group .elementor-grid {
+    width: 100%;
+    display: grid;gap: .5em;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.elementor-form-desktop .elementor-content .elementor-group .elementor-grid .elementor-item {
+    width: 100%;
+    height: 150px;
+    cursor: pointer;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid var(--lead);
+    border-radius: var(--border-radius);
+}
+
+.elementor-form-desktop .elementor-content .elementor-group .elementor-grid .elementor-group-items .elementor-item-iso {
+    background-image: url(../img/ISOTIPO.jpg);
+}
+.elementor-form-desktop .elementor-content .elementor-group .elementor-grid .elementor-group-items .elementor-item-log {
+    background-image: url(../img/LOGOTIPO.jpg);
+}
+.elementor-form-desktop .elementor-content .elementor-group .elementor-grid .elementor-group-items .elementor-item-ima {
+    background-image: url(../img/IMAGOTIPO.jpg);
+}
+.elementor-form-desktop .elementor-content .elementor-group .elementor-grid .elementor-group-items .elementor-item-isl {
+    background-image: url(../img/ISOLOGO.jpg);
+}
+.elementor-form-desktop .elementor-content .elementor-group .elementor-grid .elementor-group-items .elementor-item-msc {
+    background-image: url(../img/MASCOT\ LOGO.jpg);
+}
+.elementor-form-desktop .elementor-content .elementor-group .elementor-grid .elementor-group-items .elementor-item-p {
+    background-image: url(../img/SIN\ PREFERENCIAS.jpg);
+}
+.elementor-form-desktop .elementor-content .elementor-group .elementor-grid .elementor-group-items .elementor-text {
+    text-align: center;
+    padding: .5em 0em;
+}
+.elementor-form-desktop .elementor-content .elementor-group .elementor-grid .elementor-group-items .elementor-text span {
+    display: block;
+    font-size: .8em;
+    font-weight: bold;
+    color: var(--dark);
+}
+.elementor-form-desktop .elementor-content .elementor-group .elementor-grid .elementor-group-items .elementor-text .txt-tit {
+    font-size: 1em;
+}
+.elementor-form-desktop .elementor-content .elementor-group .elementor-grid .selected {
+    border: 4px solid rgb(25, 133, 233);
+}
+
+.elementor-form-desktop .elementor-content .elementor-group .elementor-color {
+    display: flex;gap: 1em;
+    align-items: center;
+    justify-content: space-between;
+}
+.elementor-form-desktop .elementor-content .elementor-group .elementor-entries .choose-color {
+    width: 100%;
+    height: 50px;
+    padding: 0em 1em;
+    border: 2px solid var(--lead);
+    border-radius: var(--border-radius);
+}
+.elementor-form-desktop .elementor-content .elementor-group .elementor-entries .content-color {
+    width: 100%;
+    height: 50px;
+    display: grid;
+    padding: 0em 1em;
+    place-items: center;
+    color: var(--white);
+    border: 2px solid var(--lead);
+    border-radius: var(--border-radius);
+}
+
+.elementor-form-desktop .elementor-content .elementor-group .elementor-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.elementor-form-desktop .elementor-content .elementor-group .elementor-actions .btn {
+    padding: 1em 2em;
+}
+.elementor-form-desktop .elementor-content .elementor-group .elementor-actions .btn-preview {
+    background: none;
+    color: var(--primary);
+    border: 1px solid var(--primary);
+}
+.elementor-form-desktop .elementor-content .elementor-group .elementor-actions .btn-next {
+    color: var(--white);
+    background-color: var(--primary);
+}
+
+
+.elementor-form-desktop .elementor-content .elementor-group .table {
+    width: 100%;
+    border: 2px dashed var(--primary);
+}
+.elementor-form-desktop .elementor-content .elementor-group .table .table-head {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px dashed var(--primary);
+}
+.elementor-form-desktop .elementor-content .elementor-group .table .table-head .column {
+    width: 100%;
+    display: grid;
+    font-size: .8em;
+    height: inherit;
+    place-items: center;
+}
+.elementor-form-desktop .elementor-content .elementor-group .table .table-body {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.elementor-form-desktop .elementor-content .elementor-group .table .table-body .column {
+    width: 100%;
+    display: grid;
+    font-size: .8em;
+    height: inherit;
+    place-items: center;
+}
+.elementor-form-desktop .elementor-content .elementor-group .table .table-footer {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px dashed var(--primary);
+}
+.elementor-form-desktop .elementor-content .elementor-group .table .table-footer .column {
+    width: 100%;
+    display: grid;
+    font-size: .8em;
+    height: inherit;
+    place-items: center;
+}
+.elementor-form-desktop .elementor-content .elementor-group .table .table-footer .columnBold {
+    font-weight: bold;
+}
+
+.elementor-form-desktop .elementor-content .elementor-group .table .table-row {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    padding: 0em 1em;
+    align-items: center;
+    justify-content: space-between;
+}
+.elementor-form-desktop .elementor-content .elementor-group .table .table-row .table-column {
+    width: 100%;
+    display: grid;
+    height: inherit;
+    align-items: center;
+}
+.elementor-form-desktop .elementor-content .elementor-group .table .table-row .table-left {
+    text-align: left;
+}
+
+
+.elementor-form-desktop .elementor-content .elementor-actions {
+    display: flex;
+    gap: .5em;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.elementor-form-desktop .elementor-content .elementor-actions .btn {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    gap: 0.5em;
+    background: none;
+    align-items: center;
+    justify-content: center;
+}
+.elementor-form-desktop .elementor-content .elementor-actions .btn-lead {
+    background-color: var(--lead);
+}
+
+/*************************************/
+
+
+
+@media (max-width: 400px) {
+    .elementor-form-mobile .elementor-content .elementor-group .elementor-grid {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .elementor-form-mobile .elementor-content .elementor-group .elementor-color {
+        flex-direction: column;
+    }
+}

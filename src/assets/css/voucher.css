@@ -1,0 +1,120 @@
+.voucher {
+    width: 100%;
+    padding: 1em;
+    background-color: #d9d9d9;
+}
+
+.voucher .voucher-header {
+    text-align: center;
+}
+.voucher .voucher-header .txt {
+    padding: .5em 0em;
+}
+
+.voucher .voucher-header .txt .dir {
+    margin: 0em 0em 0.5em;
+}
+.voucher .voucher-header .txt .dir .span-dir,
+.voucher .voucher-header .txt .dir .span-tel {
+    display: block;
+    font-size: .8em;
+}
+.voucher .voucher-header .txt .dir .span-dir {
+    margin: 0em 0em .5em;
+}
+
+.voucher .voucher-header .ptx {
+    padding: .5em 0em;
+}
+.voucher .voucher-header .ptx .ruc {
+    font-size: .8em;
+    font-weight: 500;
+}
+
+.voucher .voucher-header .ptx .ptx-tit {
+    font-size: 1.2em;
+    font-weight: 500;
+    margin: .2em 0em;
+}
+.voucher .voucher-header .ptx .code {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.voucher .voucher-body .fila {
+    padding: .5em 0em;
+}
+
+.voucher .voucher-body .fila .row {
+    width: 100%;
+    display: flex;
+    font-size: .8em;
+    margin: .5em 0em;
+    align-items: center;
+    justify-content: space-between;
+}
+.voucher .voucher-body .fila .row .columnA {
+    font-weight: 500;
+}
+.voucher .voucher-body .fila .row .columnB {
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.voucher .voucher-body .fila .table {
+    width: 100%;
+    border: 2px dashed var(--primary);
+}
+.voucher .voucher-body .fila .table .table-head {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px dashed var(--primary);
+}
+.voucher .voucher-body .fila .table .table-head .column {
+    width: 100%;
+    display: grid;
+    font-size: .8em;
+    height: inherit;
+    place-items: center;
+}
+
+.voucher .voucher-body .fila .table .table-body {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.voucher .voucher-body .fila .table .table-body .column {
+    width: 100%;
+    display: grid;
+    font-size: .8em;
+    height: inherit;
+    place-items: center;
+}
+.voucher .voucher-body .fila .table .table-footer {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px dashed var(--primary);
+}
+.voucher .voucher-body .fila .table .table-footer .column {
+    width: 100%;
+    display: grid;
+    font-size: .8em;
+    height: inherit;
+    place-items: center;
+}
+.voucher .voucher-body .fila .table .table-footer .columnBold {
+    font-weight: bold;
+}
+
+.voucher .voucher-footer {
+    text-align: center;
+    padding: 1em 0em;
+}
