@@ -13,13 +13,16 @@ import AdminScreen from "./screens/AdminScreen";
 import { DataProvider } from "./context/DataContext";
 import { ModalProvider } from "./context/ModalContext";
 
+import setting from "./settings/settings";
+
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
     <React.StrictMode>
         <PayPalScriptProvider
             options={{
-                "clientId" : "AStWQOoJnIQ6rvQ5Cr7qVlveYpI7AaA2EKpN70dmlrOEnQPMHKobBKAm2fekgeVwEYHAcZGUa3CxLaz-"
+                "clientId" : setting.apiKeyPaypal
             }}
         >
             <PayConfirmProvider>

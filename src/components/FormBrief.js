@@ -243,6 +243,7 @@ function FormBrief() {
     return (
 
         <Suspense fallback='Cargando traducciones'>
+
             <div className={`elementor-form-${isMobile ? 'mobile' : 'desktop'}`}>
 
                 <div className='elementor-separator elementor-title'>
@@ -558,7 +559,7 @@ function FormBrief() {
 
                                     <div className='elementor-group'>
 
-                                        <PayPalButton total={80.00} invoice={logoName} />
+                                        <PayPalButton total={60.00} invoice={logoName} />
 
                                     </div>
                                 </>

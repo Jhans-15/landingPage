@@ -74,7 +74,7 @@ function Header() {
                 </div>
 
                 <div className={`header-component header-component-desktop-${!isMobile ? 'visible' : 'hidden'}`}>
-                    
+
                     <div className='side sideB'>
                         <ul className='list-nav'>
                             <li className='li-item'>

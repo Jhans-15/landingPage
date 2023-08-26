@@ -2,7 +2,9 @@ import React, { useState, useEffect, Suspense } from 'react'
 import { useTranslation } from 'react-i18next';
 
 import logo from "../assets/img/LOGO BLANCO.png"
+
 import "../assets/css/footer.css"
+
 import Swal from 'sweetalert2';
 import setting from '../settings/settings';
 

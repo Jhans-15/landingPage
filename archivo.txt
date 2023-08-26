@@ -1,0 +1,60 @@
+### INSTALAR NODE
+
+- node --version
+
+18.4
+
+### ENTRAS EN LA CARPETA DEL PROYECTO
+
+cd Desktop/brief
+
+
+### INSTALAR DEPENDENCIA 
+
+- npm i
+
+### LEVANTAR UN SERVIDOR DE PRUEBAS
+
+- npm start
+
+### CANCELAS EL SERVIDOR 
+
+ctrl + c 
+presiones => s o n
+
+### BUILD 
+
+- npm run build
+
+=> Si ya ha sido creado la carpeta build se va actualizar en caso contrario lo va a crear
+
+### Subir el PROYECTO
+
+=> Subir todo de la carpeta build
+
+
+### CREAR RUTAS
+
+- Dentro de la carpeta screens crear un archivo => NombreArchivo.js
+
+ejemplo: 
+
+    import React from 'react'
+
+    function NombreArchivo() {
+
+        return (
+
+            <div>NombreArchivo</div>
+
+        )
+        
+    }
+
+export default NombreArchivo
+
+- Te dirijes al archivo index.js => 
+
+Crear una nueva route => <Route path="/path" element={<NombreArchivo/>} />
+
+Si no se importa automáticamente escribes lo siguiente => import NombreArchivo from "./screens/NombreArchivo";

@@ -1,5 +1,4 @@
 import React from 'react'
-import { saveAs } from "file-saver";
 
 import '../assets/css/modal.css'
 import { useContext } from 'react'
@@ -19,43 +18,8 @@ function Modal() {
         closeModal();
     }
 
-    const handleDownload = (images) => {
+    
 
-        const randomCode = generateRandomCode();
-
-        // Construir la URL completa de la imagen
-        const downloadUrl = `${setting.image}/${images}`;
-
-        // Hacer la solicitud para descargar el archivo
-        fetch(downloadUrl)
-        .then((response) => response.blob())
-        .then((blob) => {
-            // Crear un objeto Blob con la respuesta de la solicitud
-            const file = new Blob([blob], { type: 'image/png' });
-
-            // Descargar el archivo utilizando file-saver
-            saveAs(file, `${randomCode}.png`);
-        })
-        .catch((error) => {
-            console.error('Error al descargar la imagen:', error);
-        });
-
-    }
-
-    const generateRandomCode = () => {
-
-        const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-        const codeLength = 10;
-        let randomCode = '';
-        
-        for (let i = 0; i < codeLength; i++) {
-            const randomIndex = Math.floor(Math.random() * characters.length);
-            randomCode += characters[randomIndex];
-        }
-        
-        return randomCode;
-
-    }
 
     return (
 
