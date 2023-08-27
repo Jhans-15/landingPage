@@ -545,14 +545,14 @@ function FormBrief() {
                                             <div className='table-body'>
                                                 <div className='column'>1</div>
                                                 <div className='column'>Diseño de Logo</div>
-                                                <div className='column'>{setting.precio}</div>
-                                                <div className='column'>{setting.precio}</div>
+                                                <div className='column'>${setting.precio.toFixed(2)}</div>
+                                                <div className='column'>${setting.precio.toFixed(2)}</div>
                                             </div>
                                             <div className='table-footer'>
                                                 <div className='column'></div>
                                                 <div className='column'></div>
                                                 <div className='column columnBold'>Total</div>
-                                                <div className='column'>{setting.precio}</div>
+                                                <div className='column'>${setting.precio.toFixed(2)}</div>
                                             </div>
                                         </div>
                                     </div>

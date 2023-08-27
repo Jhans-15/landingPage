@@ -86,14 +86,14 @@ function Voucher({ code, fullname, email, phone, logoName, amount, price }) {
                         <div className='table-body'>
                             <div className='column'>{amount}</div>
                             <div className='column'>{logoName}</div>
-                            <div className='column'>{price}</div>
+                            <div className='column'>${price.toFixed(2)}</div>
                             <div className='column'>{importe.toFixed(2)}</div>
                         </div>
                         <div className='table-footer'>
                             <div className='column'></div>
                             <div className='column'></div>
                             <div className='column columnBold'>Total</div>
-                            <div className='column'>{importe.toFixed(2)}</div>
+                            <div className='column'>${importe.toFixed(2)}</div>
                         </div>
                     </div>
                 </div>
