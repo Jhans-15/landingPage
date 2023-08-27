@@ -545,21 +545,21 @@ function FormBrief() {
                                             <div className='table-body'>
                                                 <div className='column'>1</div>
                                                 <div className='column'>Diseño de Logo</div>
-                                                <div className='column'>80.00</div>
-                                                <div className='column'>80.00</div>
+                                                <div className='column'>{setting.precio}</div>
+                                                <div className='column'>{setting.precio}</div>
                                             </div>
                                             <div className='table-footer'>
                                                 <div className='column'></div>
                                                 <div className='column'></div>
                                                 <div className='column columnBold'>Total</div>
-                                                <div className='column'>80.00</div>
+                                                <div className='column'>{setting.precio}</div>
                                             </div>
                                         </div>
                                     </div>
 
                                     <div className='elementor-group'>
 
-                                        <PayPalButton total={60.00} invoice={logoName} />
+                                        <PayPalButton total={setting.precio} invoice={logoName} />
 
                                     </div>
                                 </>
@@ -621,6 +621,7 @@ function FormBrief() {
                 </div>
 
             </div>
+
         </Suspense>
 
     )
